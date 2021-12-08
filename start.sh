@@ -13,13 +13,3 @@ echo "storage启动完成"
 echo "正在启动nginx.........."
 sudo /usr/local/nginx/sbin/nginx
 echo "nginx启动完成"
-
-#echo "正在启动微服务ing....................."
-#启动微服务
-#go run /home/linfan/go/src/bj38web/service/getCaptcha/main.go
-#go run /home/linfan/go/src/bj38web/service/user/main.go
-#go run /home/linfan/go/src/bj38web/service/house/main.go
-
-#启动main.go
-#echo "main.go start!"
-#go run /home/linfan/go/src/bj38web/web/main.go
