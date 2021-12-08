@@ -30,8 +30,8 @@ func (e *User) SendSms(ctx context.Context, req *user.Request, rsp *user.Respons
 		credential := common.NewCredential(
 			// os.Getenv("TENCENTCLOUD_SECRET_ID"),
 			// os.Getenv("TENCENTCLOUD_SECRET_KEY"),
-			"AKIDyoRq10mKejaCfwvWnnDLDqCI9l7QWMxH",
-			"6mIbfU3OUKuFNJ0RbVAZidLp581f5GCs",
+			"",
+			"",
 		)
 		/* 非必要步骤:
 		 * 实例化一个客户端配置对象，可以指定超时时间等配置 */
